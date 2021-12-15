@@ -1,7 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="" />
+    <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/meanmenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/base/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/base/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/common/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/common/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/common/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/common/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/pages/_404.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/pages/_404.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/pages/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/pages/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/pages/_shop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/prepros-6.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/sections/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/sections/_cart-banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/sections/_hero.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/sections/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/sections/_news.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/sections/_shop-banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/sections/_testimonials.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/abt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/avaters/avatar1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/avaters/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/avaters/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/breadcrumb-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/company-logos/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/company-logos/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/company-logos/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/company-logos/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/company-logos/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/dd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/feature-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/hero-bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/hero-bg-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/hero-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/homepage-bg-pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/latest-news/news-bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/latest-news/news-bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/latest-news/news-bg-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/latest-news/news-bg-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/latest-news/news-bg-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/latest-news/news-bg-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/products/product-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/products/product-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/products/product-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/products/product-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/products/product-img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/products/product-img-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/team/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/team/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/team/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/js/form-validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/js/jquery.countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/js/jquery.isotope-3.0.6.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/js/jquery.meanmenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/js/sticker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/js/waypoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-brands-400.eot_" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-regular-400.eot_" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-solid-900.eot_" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_hero.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +142,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/laravelProject/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\Desktop\Laravel-Emlak-Ev-Alim-Satim\laravelProject\public" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -37,10 +161,27 @@
       <updated>1638732866709</updated>
       <workItem from="1638732868635" duration="67000" />
       <workItem from="1638733685162" duration="306000" />
+      <workItem from="1638734005248" duration="368000" />
+      <workItem from="1638822474957" duration="2539000" />
+      <workItem from="1638861624055" duration="1093000" />
+      <workItem from="1638976745622" duration="7547000" />
+      <workItem from="1639567526472" duration="2994000" />
     </task>
+    <task id="LOCAL-00001" summary="created laravel project">
+      <created>1638734274711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638734274712</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created laravel project" />
+    <option name="LAST_COMMIT_MESSAGE" value="created laravel project" />
   </component>
 </project>
