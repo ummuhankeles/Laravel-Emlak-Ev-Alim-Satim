@@ -27,6 +27,9 @@ Route::get('/home', [HomeController::class, 'index']);
 //parametre tanımlaması
 Route::get('/test/{id}', [HomeController::class, 'test']) -> where('id', '[0-9]+');
 
+// admin
+Route::get('/admin', [\App\Http\Controllers\Admin\HomeController::class, 'index'])->name('adminhome');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
