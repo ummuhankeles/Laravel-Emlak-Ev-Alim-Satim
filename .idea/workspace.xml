@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="completed admin login processes">
-      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/app/Models/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2021_12_26_100417_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2021_12_26_101346_category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/category.blade.php" afterDir="false" />
+    <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/category_add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/category.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +68,8 @@
       <workItem from="1639921676745" duration="85000" />
       <workItem from="1640440156242" duration="3521000" />
       <workItem from="1640443775343" duration="11740000" />
-      <workItem from="1640509665342" duration="10372000" />
+      <workItem from="1640509665342" duration="13354000" />
+      <workItem from="1640538880310" duration="3052000" />
     </task>
     <task id="LOCAL-00001" summary="created laravel project">
       <created>1638734274711</created>
@@ -101,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640512811466</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="completed category database processes">
+      <created>1640522231169</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640522231169</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +118,7 @@
     <MESSAGE value="completed home page template" />
     <MESSAGE value="completed admin panel page template" />
     <MESSAGE value="completed admin login processes" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed admin login processes" />
+    <MESSAGE value="completed category database processes" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed category database processes" />
   </component>
 </project>

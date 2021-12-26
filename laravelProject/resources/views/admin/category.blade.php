@@ -6,7 +6,7 @@
     <div class="container">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Category list</h3>
+                <a class="btn btn-block btn-info" href="{{ route('admin_category_add') }}">Add Category</a>
             </div>
             <div class="card-body">
                 <div class="col-lg-12 grid-margin stretch-card">
@@ -32,7 +32,7 @@
                                         <td>{{ $rs->title }}</td>
                                         <td>{{ $rs->status }}</td>
                                         <td>Edit</td>
-                                        <td>Delete</td>
+                                        <td><a href="{{ route('admin_category_delete', ['id' => $rs->id]) }}" onclick="return confirm('Are you Sure?')">Delete</a></td>
                                     </tr>
                                     @endforeach
                                     </tbody>

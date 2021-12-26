@@ -15,7 +15,8 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $datalist = DB::select('select * from categories');
+        $datalist = DB::table('categories')->get();
+        //$datalist = DB::select('select * from categories');
         return view('admin.category', ['datalist' => $datalist]);
     }
 
@@ -24,9 +25,28 @@ class CategoryController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function add()
     {
-        //
+        $datalist = DB::table('categories')->get()->where('parent_id',0);
+        return view('admin.category_add', ['datalist' => $datalist]);
+    }
+
+    /**
+     * insert data
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function create(Request $request)
+    {
+        DB::table('categories')->insert([
+            'parent_id' => $request->input('parent_id'),
+            'title' => $request->input('title'),
+            'keywords' => $request->input('keywords'),
+            'description' => $request->input('description'),
+            'status' => $request->input('status')
+        ]);
+
+        return redirect()->route('admin_category');
     }
 
     /**
@@ -82,6 +102,7 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        DB::table('categories')->where('id','=',$id)->delete();
+        return redirect()->route('admin_category');
     }
 }
