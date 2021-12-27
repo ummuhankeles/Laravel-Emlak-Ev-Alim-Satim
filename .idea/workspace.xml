@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/category_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/app/Models/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2021_12_27_103351_create_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2021_12_27_105144_product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/product.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/product_add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/product_edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +74,8 @@
       <workItem from="1640440156242" duration="3521000" />
       <workItem from="1640443775343" duration="11740000" />
       <workItem from="1640509665342" duration="13354000" />
-      <workItem from="1640538880310" duration="7730000" />
+      <workItem from="1640538880310" duration="8355000" />
+      <workItem from="1640600643939" duration="9257000" />
     </task>
     <task id="LOCAL-00001" summary="created laravel project">
       <created>1638734274711</created>
@@ -113,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640541992736</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="completed updating category">
+      <created>1640547171574</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640547171574</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +140,7 @@
     <MESSAGE value="completed admin login processes" />
     <MESSAGE value="completed category database processes" />
     <MESSAGE value="completed adding and deleting category" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed adding and deleting category" />
+    <MESSAGE value="completed updating category" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed updating category" />
   </component>
 </project>

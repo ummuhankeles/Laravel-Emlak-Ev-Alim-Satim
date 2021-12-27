@@ -72,6 +72,15 @@
             </div> -->
         </li>
         <li class="nav-item menu-items">
+            <a class="nav-link" href="{{ route('admin_product') }}" >
+              <span class="menu-icon">
+                <i class="mdi mdi-laptop"></i>
+              </span>
+                <span class="menu-title">Products</span>
+                <i class="menu-arrow"></i>
+            </a>
+        </li>
+        <li class="nav-item menu-items">
             <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
               <span class="menu-icon">
                 <i class="mdi mdi-security"></i>
