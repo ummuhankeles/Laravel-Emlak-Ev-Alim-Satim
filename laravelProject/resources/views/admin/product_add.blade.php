@@ -14,7 +14,7 @@
                 <h3 class="card-title">Add Product</h3>
             </div>
             <div class="card-body">
-                <form class="forms-sample" action="{{ route('admin_product_store') }}" method="post">
+                <form class="forms-sample" action="{{ route('admin_product_store') }}" method="post" enctype="multipart/form-data" >
                     @csrf
                     <div class="form-group row">
                         <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Parent</label>
@@ -24,6 +24,12 @@
                                     <option value="{{$rs->id}}">{{$rs->title}}</option>
                                 @endforeach
                             </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Image</label>
+                        <div class="col-sm-9">
+                            <input type="file" name="image" class="form-control" id="exampleInputEmail2">
                         </div>
                     </div>
                     <div class="form-group row">

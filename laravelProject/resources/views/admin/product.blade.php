@@ -36,7 +36,11 @@
                                     @foreach($datalist as $rs)
                                     <tr>
                                         <td>{{ $rs->id }}</td>
-                                        <td>{{ $rs->image }}</td>
+                                        <td>
+                                            @if ($rs->image)
+                                                <img src="{{Storage::url($rs->image)}}" height="70" width="70" >
+                                            @endif
+                                        </td>
                                         <td>{{ $rs->category_id }}</td>
                                         <td>{{ $rs->title }}</td>
                                         <td>{{ $rs->keywords }}</td>
