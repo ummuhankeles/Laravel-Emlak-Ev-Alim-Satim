@@ -47,6 +47,12 @@
                         </div>
                     </div>
                     <div class="form-group row">
+                        <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Detail</label>
+                        <div class="col-sm-9">
+                            <input type="number" name="detail" value="{{$data->detail}}" class="form-control" id="exampleInputEmail2">
+                        </div>
+                    </div>
+                    <div class="form-group row">
                         <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Brut</label>
                         <div class="col-sm-9">
                             <input type="number" name="brut" value="{{$data->brut}}" class="form-control" id="exampleInputEmail2">

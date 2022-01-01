@@ -93,6 +93,7 @@ class ProductController extends Controller
         $data -> description = $request->input('description');
         $data -> status = $request->input('status');
         $data -> price = $request->input('price');
+        $data -> detail = $request->input('detail');
         $data -> brut = $request->input('brut');
         $data -> room_count = $request->input('room_count');
         $data -> dues = $request->input('dues');

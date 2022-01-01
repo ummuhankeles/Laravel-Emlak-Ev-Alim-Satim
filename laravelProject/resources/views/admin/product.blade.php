@@ -23,6 +23,7 @@
                                         <th> Keywords </th>
                                         <th> Description </th>
                                         <th> Price </th>
+                                        <th> Detail </th>
                                         <th> Brut </th>
                                         <th> Room Count </th>
                                         <th> Dues </th>
@@ -41,6 +42,7 @@
                                         <td>{{ $rs->keywords }}</td>
                                         <td>{{ $rs->description }}</td>
                                         <td>{{ $rs->price }}</td>
+                                        <td>{{ $rs->detail }}</td>
                                         <td>{{ $rs->brut }}</td>
                                         <td>{{ $rs->room_count }}</td>
                                         <td>{{ $rs->dues }}</td>
