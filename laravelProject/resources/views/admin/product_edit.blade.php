@@ -2,6 +2,10 @@
 
 @section('title', 'Add Category')
 
+@section('javascript')
+    <script src="https://cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script>
+@endsection
+
 @section('content')
 
     <div class="container">
@@ -49,7 +53,10 @@
                     <div class="form-group row">
                         <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Detail</label>
                         <div class="col-sm-9">
-                            <input type="number" name="detail" value="{{$data->detail}}" class="form-control" id="exampleInputEmail2">
+                            <textarea name="detail"></textarea>
+                            <script>
+                                CKEDITOR.replace( 'detail' );
+                            </script>
                         </div>
                     </div>
                     <div class="form-group row">
