@@ -18,6 +18,7 @@
                                     <tr>
                                         <th> # </th>
                                         <th> Image </th>
+                                        <th> Image Gallery </th>
                                         <th> Category </th>
                                         <th> Title </th>
                                         <th> Keywords </th>
@@ -40,6 +41,9 @@
                                             @if ($rs->image)
                                                 <img src="{{Storage::url($rs->image)}}" height="70" width="70" >
                                             @endif
+                                        </td>
+                                        <td><a href="{{ route('admin_image_add', ['home_id' => $rs->id]) }}" onclick="return !window.open(this.href, '', 'top=50 left=100 width=1100 height=700')" >
+                                                <img src="{{asset('assets/admin/icons')}}/gallery.png" ></a>
                                         </td>
                                         <td>{{ $rs->category_id }}</td>
                                         <td>{{ $rs->title }}</td>
