@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="completed product image upload">
-      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/ImageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/app/Models/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_01_115636_create_images_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_01_120042_image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/admin/icons/gallery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/image_add.blade.php" afterDir="false" />
+    <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/SettingController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/app/Models/Setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_03_145224_create_settings_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_03_150247_setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/setting_edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +37,6 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/laravelProject/resources/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -75,7 +73,9 @@
       <workItem from="1640509665342" duration="13354000" />
       <workItem from="1640538880310" duration="8355000" />
       <workItem from="1640600643939" duration="9375000" />
-      <workItem from="1641033041633" duration="11450000" />
+      <workItem from="1641033041633" duration="11546000" />
+      <workItem from="1641221149382" duration="4427000" />
+      <workItem from="1641825400729" duration="2887000" />
     </task>
     <task id="LOCAL-00001" summary="created laravel project">
       <created>1638734274711</created>
@@ -154,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641037100350</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="completed product image gallery">
+      <created>1641047624167</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641047624167</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +180,7 @@
     <MESSAGE value="updating product pages" />
     <MESSAGE value="added ck editor" />
     <MESSAGE value="completed product image upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed product image upload" />
+    <MESSAGE value="completed product image gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed product image gallery" />
   </component>
 </project>
