@@ -16,9 +16,11 @@
                         <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Parent</label>
                         <div class="col-sm-9">
                             <select class="js-example-basic-single" name="parent_id" style="width:100%">
-                                <option value="0">Main Category</option>
+                                <option value="0" selected="selected" >Main Category</option>
                                 @foreach($datalist as $rs)
-                                    <option value="{{$rs->id}}" @if($rs->id == $data->parent_id) selected="selected" @endif>{{$rs->title}}</option>
+                                    <option value="{{$rs->id}}" @if($rs->id == $data->parent_id) selected="selected" @endif>
+                                        {{ \App\Http\Controllers\Admin\CategoryController::getParentsTree($rs, $rs->title) }}
+                                    </option>
                                 @endforeach
                             </select>
                         </div>

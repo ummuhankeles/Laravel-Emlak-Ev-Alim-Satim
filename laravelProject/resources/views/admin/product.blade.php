@@ -45,7 +45,7 @@
                                         <td><a href="{{ route('admin_image_add', ['home_id' => $rs->id]) }}" onclick="return !window.open(this.href, '', 'top=50 left=100 width=1100 height=700')" >
                                                 <img src="{{asset('assets/admin/icons')}}/gallery.png" ></a>
                                         </td>
-                                        <td>{{ $rs->category->title }}</td>
+                                        <td>{{ \App\Http\Controllers\Admin\CategoryController::getParentsTree($rs->category, $rs->category->title) }}</td>
                                         <td>{{ $rs->title }}</td>
                                         <td>{{ $rs->keywords }}</td>
                                         <td>{{ $rs->description }}</td>

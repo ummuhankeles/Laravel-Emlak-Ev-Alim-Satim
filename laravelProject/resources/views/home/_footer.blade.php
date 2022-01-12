@@ -28,16 +28,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12">
-                <p>Copyrights &copy; 2021 - <a href="#">Ümmühan Keleş</a>,  All Rights Reserved.</p>
+                <p>Copyrights &copy; 2021 - Ümmühan Keleş,  All Rights Reserved | {{ $setting->company }}</p>
             </div>
             <div class="col-lg-6 text-right col-md-12">
                 <div class="social-icons">
                     <ul>
-                        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+                        @if($setting->facebook != null) <li><a href="{{ $setting->facebook }}" target="_blank"><i class="fab fa-facebook-f"></i></a></li> @endif
+                        @if($setting->twitter != null) <li><a href="{{ $setting->twitter }}" target="_blank"><i class="fab fa-twitter"></i></a></li> @endif
+                        @if($setting->instagram != null) <li><a href="{{ $setting->instagram }}" target="_blank"><i class="fab fa-instagram"></i></a></li> @endif
                     </ul>
                 </div>
             </div>

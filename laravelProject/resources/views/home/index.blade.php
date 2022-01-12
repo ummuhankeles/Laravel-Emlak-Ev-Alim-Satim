@@ -1,15 +1,20 @@
+@php
+ $setting = \App\Http\Controllers\HomeController::getsetting()
+@endphp
+
 @extends('layouts.home')
 
-@section('title', 'Emlak Ticaret Sitesi')
+@section('title', $setting->title)
 
 @section('description')
-    Türkiye'nin en güvenilir ve en çok kullanılan emlak ticaret sitesi...
+    {{ $setting->description }}
 @endsection
 
-@section('keyword', 'Residans, Daire, Müstakil, Satılık, Kiralık, Dubleks')
+@section('keywords', $setting->keywords)
 
 @section('content')
     <div class="latest-news pt-150 pb-150">
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6">

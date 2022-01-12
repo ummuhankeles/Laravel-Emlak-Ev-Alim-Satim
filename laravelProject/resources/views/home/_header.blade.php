@@ -1,3 +1,4 @@
+
 <!-- header -->
 <div class="top-header-area" id="sticker">
     <div class="container">
@@ -6,7 +7,7 @@
                 <div class="main-menu-wrap">
                     <!-- logo -->
                     <div class="site-logo">
-                        <a href="index.html">
+                        <a href="{{ route('home') }}">
                             <img src="{{asset('assets')}}/img/logo.png" alt="">
                         </a>
                     </div>
@@ -15,20 +16,26 @@
                     <!-- menu start -->
                     <nav class="main-menu">
                         <ul>
-                            <li class="current-list-item"><a href="#">Anasayfa</a>
-                            </li>
-                            <li><a href="about.html">Hakkımızda</a></li>
+                            <li class="current-list-item"><a href="{{ route('home') }}">Anasayfa</a></li>
+                            <li><a href="{{ route('aboutus') }}">Hakkımızda</a></li>
                             <li><a href="#">Kategoriler</a>
                                 <ul class="sub-menu">
-                                    <li><a href="404.html">Satılık</a></li>
-                                    <li><a href="about.html">Kiralık</a></li>
-                                    <li><a href="cart.html">Günlük Kiralık</a></li>
-                                    <li><a href="checkout.html">Devren Satılık</a></li>
+                                    <li><a href="#">Arsa</a></li>
+                                    <li><a href="#">Konut</a></li>
+                                    <li><a href="#">İş Yeri</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Giriş Yap</a></li>
-                            <li><a href="contact.html">Kaydol</a></li>
-                            <li><a href="contact.html">Ücretsiz İlan Ver</a></li>
+                            @auth
+                            <li><a href="#">{{ Auth::user()->name }}</a>
+                                <ul class="sub-menu">
+                                    <li><a href="{{ route('logout') }}">Çıkış Yap</a></li>
+                                </ul>
+                            </li>
+                            @endauth
+                            @guest
+                            <li><a href="/login">Giriş Yap</a></li>
+                            <li><a href="/register">Kaydol</a></li>
+                            @endguest
                             <li>
                                 <div class="header-icons">
                                     <a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
