@@ -29,7 +29,7 @@
                     <div class="form-group row">
                         <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Image</label>
                         <div class="col-sm-9">
-                            <input type="file" name="ımage" value="{{$data->ımage}}" class="form-control" id="exampleInputEmail2">
+                            <input type="file" name="ımage" class="form-control" id="exampleInputEmail2">
                             @if ($rs->image)
                                 <img src="{{Storage::url($rs->image)}}" height="70" width="70" >
                             @endif

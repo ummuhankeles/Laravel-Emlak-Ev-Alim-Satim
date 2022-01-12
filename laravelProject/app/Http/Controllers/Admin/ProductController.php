@@ -100,7 +100,9 @@ class ProductController extends Controller
         $data -> room_count = $request->input('room_count');
         $data -> dues = $request->input('dues');
         $data -> category_id = $request->input('category_id');
-        $data -> image = Storage::putFile('images', $request->file('image'));
+        if($request->file('image') != null) {
+            $data -> image = Storage::putFile('images', $request->file('image'));
+        }
         $data -> save();
         return redirect()->route('admin_product');
     }
