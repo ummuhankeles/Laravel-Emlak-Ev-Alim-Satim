@@ -71,9 +71,13 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 });
 
 //user
-//Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(function (){
-    Route::get('/myaccount', [\App\Http\Controllers\UserController::class, 'index'])->name('myprofile');
-//});
+Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(function (){
+    Route::get('/', [\App\Http\Controllers\UserController::class, 'index'])->name('myprofile');
+});
+
+Route::middleware('auth')->prefix('user')->namespace('user')->group(function (){
+    Route::get('/profile', [\App\Http\Controllers\UserController::class, 'index'])->name('userprofile');
+});
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

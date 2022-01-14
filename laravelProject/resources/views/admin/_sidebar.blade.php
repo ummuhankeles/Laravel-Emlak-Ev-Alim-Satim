@@ -14,7 +14,7 @@
                     <div class="profile-name">
                        @auth()
                             <h5 class="mb-0 font-weight-normal">{{Auth::user()->name}}</h5>
-                            <span><a href="{{route('admin_logout')}}">Logout</a></span>
+                            <span><a href="{{route('logout')}}">Logout</a></span>
                         @endauth
                     </div>
                 </div>
