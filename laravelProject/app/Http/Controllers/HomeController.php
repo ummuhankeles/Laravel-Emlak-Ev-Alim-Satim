@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\Message;
 use App\Models\Setting;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -44,15 +45,16 @@ class HomeController extends Controller
         return view('home.contact', ['setting' => $setting]);
     }
 
-    public function homelogin()
+    public function sendmessage(Request $request)
     {
-        return view('home.about');
+        $data = new Message();
+        $data->name = $request->input('name');
+        $data->email = $request->input('email');
+        $data->subject = $request->input('subject');
+        $data->phone = $request->input('phone');
+        $data->message = $request->input('message');
+        $data->save();
+        return redirect()->route('contact')->with('success', 'Mesajınız kaydedilmiştir. Teşekkür ederiz.');
     }
-
-    public function homesignup()
-    {
-        return view('home.about');
-    }
-
 
 }

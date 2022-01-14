@@ -79,6 +79,14 @@
             </a>
         </li>
         <li class="nav-item menu-items">
+            <a class="nav-link" href="{{ route('admin_message') }}" >
+              <span class="menu-icon">
+                <i class="mdi mdi-laptop"></i>
+              </span>
+                <span class="menu-title">Contact Messages</span>
+            </a>
+        </li>
+        <li class="nav-item menu-items">
             <a class="nav-link" href="{{ route('admin_setting') }}" >
               <span class="menu-icon">
                 <i class="mdi mdi-laptop"></i>

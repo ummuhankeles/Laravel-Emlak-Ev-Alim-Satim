@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/contact.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/reference.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/MessageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/app/Models/Message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_14_190528_create_messages_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_14_191248_message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/admin/icons/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/messages.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/messages_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/message.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/setting_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/setting_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_hero.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_hero.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/user_profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/user_profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/public/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +52,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/laravelProject/resources/views/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/laravelProject/resources/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Asus\Desktop\Laravel-Emlak-Ev-Alim-Satim\laravelProject\resources\views\home" />
       <recent name="C:\Users\Asus\Desktop\Laravel-Emlak-Ev-Alim-Satim\laravelProject\resources\views\admin" />
+      <recent name="C:\Users\Asus\Desktop\Laravel-Emlak-Ev-Alim-Satim\laravelProject\resources\views\home" />
       <recent name="C:\Users\Asus\Desktop\Laravel-Emlak-Ev-Alim-Satim\laravelProject\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -90,7 +94,8 @@
       <workItem from="1641982741038" duration="11209000" />
       <workItem from="1642013240455" duration="6241000" />
       <workItem from="1642060208610" duration="4075000" />
-      <workItem from="1642159841791" duration="10500000" />
+      <workItem from="1642159841791" duration="10613000" />
+      <workItem from="1642186911917" duration="9548000" />
     </task>
     <task id="LOCAL-00001" summary="created laravel project">
       <created>1638734274711</created>
@@ -211,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642165734810</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="updated aboutus, references and contact pages">
+      <created>1642171263315</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1642171263315</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +248,7 @@
     <MESSAGE value="completed category tree sub and home page settings" />
     <MESSAGE value="completed user profile page" />
     <MESSAGE value="updated user profile page" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated user profile page" />
+    <MESSAGE value="updated aboutus, references and contact pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated aboutus, references and contact pages" />
   </component>
 </project>
