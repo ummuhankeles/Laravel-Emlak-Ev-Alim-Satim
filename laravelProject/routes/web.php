@@ -70,8 +70,10 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 
 });
 
-
-
+//user
+//Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(function (){
+    Route::get('/myaccount', [\App\Http\Controllers\UserController::class, 'index'])->name('myprofile');
+//});
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

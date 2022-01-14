@@ -1,4 +1,3 @@
-
 <!-- header -->
 <div class="top-header-area" id="sticker">
     <div class="container">
@@ -28,6 +27,7 @@
                             @auth
                             <li><a href="#">{{ Auth::user()->name }}</a>
                                 <ul class="sub-menu">
+                                    <li><a href="{{ route('myprofile') }}">Hesabım</a></li>
                                     <li><a href="{{ route('logout') }}">Çıkış Yap</a></li>
                                 </ul>
                             </li>
@@ -52,3 +52,4 @@
     </div>
 </div>
 <!-- end header -->
+
