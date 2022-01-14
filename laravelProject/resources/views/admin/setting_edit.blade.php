@@ -92,15 +92,21 @@
                     <div class="form-group row">
                         <label for="exampleInputEmail2" class="col-sm-3 col-form-label">About Us</label>
                         <div class="col-sm-9">
-                            <input type="text" name="aboutus" value="{{$data->aboutus}}" class="form-control" id="exampleInputEmail2">
+                            <textarea name="aboutus"></textarea>
                         </div>
                     </div>
+                    <script>
+                        CKEDITOR.replace( 'aboutus' );
+                    </script>
                     <div class="form-group row">
                         <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Contact</label>
                         <div class="col-sm-9">
-                            <input type="text" name="contact" value="{{$data->contact}}" class="form-control" id="exampleInputEmail2">
+                            <textarea name="contact"></textarea>
                         </div>
                     </div>
+                    <script>
+                        CKEDITOR.replace( 'contact' );
+                    </script>
                     <div class="form-group row">
                         <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Facebook</label>
                         <div class="col-sm-9">

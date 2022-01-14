@@ -1,5 +1,5 @@
 <!-- header -->
-<div class="top-header-area" id="sticker">
+<div class="top-header-area" id="sticker" style="background-color: #051922">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-sm-12 text-center">
@@ -16,7 +16,6 @@
                     <nav class="main-menu">
                         <ul>
                             <li class="current-list-item"><a href="{{ route('home') }}">Anasayfa</a></li>
-                            <li><a href="{{ route('aboutus') }}">Hakkımızda</a></li>
                             <li><a href="#">Kategoriler</a>
                                 <ul class="sub-menu">
                                     <li><a href="#">Arsa</a></li>
@@ -24,6 +23,9 @@
                                     <li><a href="#">İş Yeri</a></li>
                                 </ul>
                             </li>
+                            <li><a href="{{ route('aboutus') }}">Hakkımızda</a></li>
+                            <li><a href="{{ route('reference') }}">Referanslar</a></li>
+                            <li><a href="{{ route('contact') }}">İletişim</a></li>
                             @auth
                             <li><a href="#">{{ Auth::user()->name }}</a>
                                 <ul class="sub-menu">

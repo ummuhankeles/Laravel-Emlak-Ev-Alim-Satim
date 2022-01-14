@@ -1,5 +1,5 @@
 <!-- hero area -->
-<div class="hero-area hero-bg">
+<div class="hero-area hero-bg" @if(!isset($page)) hidden @endif>
     <div class="container">
         <div class="row">
             <div class="col-lg-9 offset-lg-2 text-center">

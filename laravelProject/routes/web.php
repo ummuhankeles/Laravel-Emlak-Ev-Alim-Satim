@@ -22,6 +22,8 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/home', [HomeController::class, 'index'])->name('homepage');
 Route::get('/aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
+Route::get('/reference', [HomeController::class, 'reference'])->name('reference');
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 //Route::get('/homelogin', [HomeController::class, 'homelogin'])->name('homelogin');
 //Route::get('/homesignup', [HomeController::class, 'homesignup'])->name('homesignup');
 

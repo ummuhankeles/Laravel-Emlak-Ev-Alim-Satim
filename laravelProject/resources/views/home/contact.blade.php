@@ -4,7 +4,7 @@
 
 @extends('layouts.home')
 
-@section('title', 'About Us - '. $setting->title)
+@section('title', 'Contact - '. $setting->title)
 
 @section('description')
     {{ $setting->description }}
@@ -14,8 +14,13 @@
 
 @section('content')
     <div class="container" style="margin-top: 150px">
-        <p>
-            {!! $setting->aboutus !!}
-        </p>
+        <div class="row">
+            <div class="col-md-6">
+                {!! $setting->contact !!}
+            </div>
+            <div class="col-md-6">
+                iletişim formu
+            </div>
+        </div>
     </div>
 @endsection

@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_14_123932_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/reference.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/config/jetstream.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/config/jetstream.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/setting_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/setting_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_hero.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_hero.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/user_profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/user_profile.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,12 +48,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/laravelProject/resources/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/laravelProject/resources/views/home" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\Desktop\Laravel-Emlak-Ev-Alim-Satim\laravelProject\resources\views\home" />
       <recent name="C:\Users\Asus\Desktop\Laravel-Emlak-Ev-Alim-Satim\laravelProject\resources\views\admin" />
       <recent name="C:\Users\Asus\Desktop\Laravel-Emlak-Ev-Alim-Satim\laravelProject\public" />
     </key>
@@ -86,7 +90,7 @@
       <workItem from="1641982741038" duration="11209000" />
       <workItem from="1642013240455" duration="6241000" />
       <workItem from="1642060208610" duration="4075000" />
-      <workItem from="1642159841791" duration="5493000" />
+      <workItem from="1642159841791" duration="10500000" />
     </task>
     <task id="LOCAL-00001" summary="created laravel project">
       <created>1638734274711</created>
@@ -200,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642161147273</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updated user profile page">
+      <created>1642165734810</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1642165734810</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +235,7 @@
     <MESSAGE value="completed relation category product" />
     <MESSAGE value="completed category tree sub and home page settings" />
     <MESSAGE value="completed user profile page" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed user profile page" />
+    <MESSAGE value="updated user profile page" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated user profile page" />
   </component>
 </project>
