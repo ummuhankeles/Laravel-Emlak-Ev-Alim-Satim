@@ -82,7 +82,7 @@ nav.main-menu {
       }
     }
 
-    > li:hover ul {
+      > li:hover ul {
       opacity: 1;
       visibility: visible;
     }
@@ -96,6 +96,7 @@ nav.main-menu {
     float: right;
   }
 }
+
 
 .site-logo {
   float: left;

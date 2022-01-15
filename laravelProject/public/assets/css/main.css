@@ -574,6 +574,22 @@ nav.main-menu ul > li {
   position: relative;
 }
 
+nav.main-menu ul ul.sub-menu ul.tree {
+    position: absolute;
+    visibility: hidden;
+}
+
+nav.main-menu ul ul.sub-menu li:hover ul.tree li {
+    background-color: #fff;
+    width: 220px;
+    margin: 0;
+    left: 94%;
+    top: -40px;
+    border-radius: 3px;
+    transition: 0.3s;
+    visibility: visible;
+}
+
 nav.main-menu ul ul.sub-menu {
   position: absolute;
   background-color: #fff;

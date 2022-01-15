@@ -1,3 +1,6 @@
+@php
+    $parentCategories = \App\Http\Controllers\HomeController::categoryList()
+@endphp
 <!-- header -->
 <div class="top-header-area" id="sticker" style="background-color: #051922">
     <div class="container">
@@ -18,10 +21,19 @@
                             <li class="current-list-item"><a href="{{ route('home') }}">Anasayfa</a></li>
                             <li><a href="#">Kategoriler</a>
                                 <ul class="sub-menu">
+                                @foreach($parentCategories as $rs)
+                                        <li><a  href="#">{{ $rs->title }}</a>
+                                        @if(count($rs->children))
+                                            @include('home.categorytree',['children' => $rs->children])
+                                        @endif
+                                        </li>
+                                @endforeach
+                                </ul>
+                                <!--<ul class="sub-menu">
                                     <li><a href="#">Arsa</a></li>
                                     <li><a href="#">Konut</a></li>
                                     <li><a href="#">İş Yeri</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li><a href="{{ route('aboutus') }}">Hakkımızda</a></li>
                             <li><a href="{{ route('reference') }}">Referanslar</a></li>
