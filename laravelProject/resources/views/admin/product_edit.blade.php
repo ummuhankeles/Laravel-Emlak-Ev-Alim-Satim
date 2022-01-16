@@ -14,7 +14,7 @@
                 <h3 class="card-title">Update Product</h3>
             </div>
             <div class="card-body">
-                <form class="forms-sample" action="{{ route('admin_product_update', ['id' => $data->id]) }}" method="post">
+                <form class="forms-sample" action="{{ route('admin_product_update', ['id' => $data->id]) }}" method="post" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group row">
                         <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Category</label>
@@ -31,9 +31,10 @@
                     <div class="form-group row">
                         <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Image</label>
                         <div class="col-sm-9">
-                            <input type="file" name="ımage" class="form-control" id="exampleInputEmail2">
-                            @if ($rs->image)
-                                <img src="{{Storage::url($rs->image)}}" height="70" width="70" >
+                            <input type="file" name="image" class="form-control" id="exampleInputEmail2">
+
+                            @if ($data->image)
+                                <img src="{{Storage::url($data->image)}}" height="70" width="70" >
                             @endif
                         </div>
                     </div>

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_category.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/categorytree.blade.php" afterDir="false" />
+    <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="updated category subtree">
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/category_products.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/public/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/common/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/common/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/public/assets/img/hero-bg-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/hero-bg-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/public/assets/img/hero-bg-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/hero-bg-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/product_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/product_edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_hero.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_hero.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/categorytree.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/categorytree.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +92,9 @@
       <workItem from="1642159841791" duration="10613000" />
       <workItem from="1642186911917" duration="9612000" />
       <workItem from="1642238400494" duration="8375000" />
-      <workItem from="1642247860518" duration="1477000" />
+      <workItem from="1642247860518" duration="5059000" />
+      <workItem from="1642259338883" duration="4110000" />
+      <workItem from="1642331148168" duration="909000" />
     </task>
     <task id="LOCAL-00001" summary="created laravel project">
       <created>1638734274711</created>
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642197019319</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="updated category subtree">
+      <created>1642249411286</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1642249411286</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +263,7 @@
     <MESSAGE value="updated user profile page" />
     <MESSAGE value="updated aboutus, references and contact pages" />
     <MESSAGE value="complated contact message management" />
-    <option name="LAST_COMMIT_MESSAGE" value="complated contact message management" />
+    <MESSAGE value="updated category subtree" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated category subtree" />
   </component>
 </project>

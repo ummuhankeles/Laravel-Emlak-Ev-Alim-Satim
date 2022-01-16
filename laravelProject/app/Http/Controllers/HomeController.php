@@ -30,6 +30,7 @@ class HomeController extends Controller
             'slider' => $slider,
             'page' => 'home'
         ];
+
         return view('home.index', $data);
     }
 
@@ -38,6 +39,14 @@ class HomeController extends Controller
         $data = Product::find($id);
         print_r($data);
         exit();
+    }
+
+    public function categoryproducts($id)
+    {
+        $data = Category::find($id);
+        $slider = Product::select('id','title', 'image', 'price')->limit(4)->get();
+        $datalist = Product::where('category_id', $id)->get();
+        return view('home.category_products', ['data' => $data, 'datalist' => $datalist, 'slider' => $slider]);
     }
 
     public function aboutus()
