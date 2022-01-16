@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/product_detail.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/category_products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/category_products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_hero.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_hero.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +90,7 @@
       <workItem from="1642238400494" duration="8375000" />
       <workItem from="1642247860518" duration="5059000" />
       <workItem from="1642259338883" duration="4110000" />
-      <workItem from="1642331148168" duration="2999000" />
+      <workItem from="1642331148168" duration="6108000" />
     </task>
     <task id="LOCAL-00001" summary="created laravel project">
       <created>1638734274711</created>
@@ -238,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642332098835</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Showing products on the homepage">
+      <created>1642334270899</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1642334270899</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +275,7 @@
     <MESSAGE value="complated contact message management" />
     <MESSAGE value="updated category subtree" />
     <MESSAGE value="completed category product list" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed category product list" />
+    <MESSAGE value="Showing products on the homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Showing products on the homepage" />
   </component>
 </project>

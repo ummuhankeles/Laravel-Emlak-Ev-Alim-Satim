@@ -1,6 +1,6 @@
 @php
      $setting = \App\Http\Controllers\HomeController::getsetting();
-    $datalist = \App\Http\Controllers\HomeController::categoryList()
+    $slider = \App\Http\Controllers\HomeController::categoryList()
 @endphp
 
 @extends('layouts.home')
@@ -23,7 +23,7 @@
                         <a href="single-news.html"><div class="latest-news-bg news-bg-1"></div></a>
                         <div class="news-text-box">
                             <h3><a href="single-news.html">{{$rs->description}}</a></h3>
-                            <a href="single-news.html" class="read-more-btn">daha fazla <i class="fas fa-angle-right"></i></a>
+                            <a href="{{ route('product', ['id' => $rs->id]) }}" class="read-more-btn">daha fazla <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>

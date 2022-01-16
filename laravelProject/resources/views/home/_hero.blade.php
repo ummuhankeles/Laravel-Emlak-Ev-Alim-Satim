@@ -1,4 +1,6 @@
-
+@php
+    $slider = \App\Http\Controllers\HomeController::categoryList()
+@endphp
 
 <!-- home page slider -->
 <div class="homepage-slider" @if(!isset($page)) hidden @endif>

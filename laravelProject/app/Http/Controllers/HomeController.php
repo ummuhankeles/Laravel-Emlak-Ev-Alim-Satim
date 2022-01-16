@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\Image;
 use App\Models\Message;
 use App\Models\Product;
 use App\Models\Setting;
@@ -40,8 +41,8 @@ class HomeController extends Controller
     public function product($id)
     {
         $data = Product::find($id);
-        print_r($data);
-        exit();
+        $datalist = Image::where('home_id', $id)->get();
+        return view('home.product_detail', ['data' => $data, 'datalist' => $datalist]);
     }
 
     public function categoryproducts($id)
