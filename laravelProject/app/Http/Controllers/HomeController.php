@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Livewire\Review;
 use App\Models\Category;
 use App\Models\Image;
 use App\Models\Message;
@@ -15,6 +16,16 @@ class HomeController extends Controller
     public static function categoryList()
     {
         return Category::where('parent_id', '=', 0)->with('children')->get();
+    }
+
+    public static function countreview($id)
+    {
+        return Review::where('home_id', $id)->count();
+    }
+
+    public static function avrgreview($id)
+    {
+        return Review::where('home_id', $id)->avarage('rate');
     }
 
     public static function getsetting()
@@ -42,7 +53,8 @@ class HomeController extends Controller
     {
         $data = Product::find($id);
         $datalist = Image::where('home_id', $id)->get();
-        return view('home.product_detail', ['data' => $data, 'datalist' => $datalist]);
+        $reviews = Review::where('home_id', $id)->get();
+        return view('home.product_detail', ['data' => $data, 'datalist' => $datalist, 'review' => $reviews]);
     }
 
     public function categoryproducts($id)

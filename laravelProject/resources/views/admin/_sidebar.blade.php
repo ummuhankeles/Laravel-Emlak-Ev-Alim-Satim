@@ -87,6 +87,14 @@
             </a>
         </li>
         <li class="nav-item menu-items">
+            <a class="nav-link" href="{{ route('admin_review') }}" >
+              <span class="menu-icon">
+                <i class="mdi mdi-laptop"></i>
+              </span>
+                <span class="menu-title">Reviews</span>
+            </a>
+        </li>
+        <li class="nav-item menu-items">
             <a class="nav-link" href="{{ route('admin_setting') }}" >
               <span class="menu-icon">
                 <i class="mdi mdi-laptop"></i>
