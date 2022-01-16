@@ -27,6 +27,8 @@ Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::post('/sendmessage', [HomeController::class, 'sendmessage'])->name('sendmessage');
 Route::get('/product/{id}', [HomeController::class, 'product'])->name('product');
 Route::get('/categoryproducts/{id}', [HomeController::class, 'categoryproducts'])->name('categoryproducts');
+Route::post('/getproduct', [HomeController::class, 'getproduct'])->name('getproduct');
+Route::get('/productlist/{search}', [HomeController::class, 'productlist'])->name('productlist');
 //Route::get('/homelogin', [HomeController::class, 'homelogin'])->name('homelogin');
 //Route::get('/homesignup', [HomeController::class, 'homesignup'])->name('homesignup');
 
