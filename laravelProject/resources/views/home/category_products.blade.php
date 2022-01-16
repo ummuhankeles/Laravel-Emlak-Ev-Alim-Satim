@@ -23,19 +23,20 @@
                 </div>
             </div>
         </div>
-        @foreach($datalist as $rs)
         <div class="row product-lists">
+            @foreach($slider as $rs)
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="single-product-item">
                     <div class="product-image">
                         <a href="#"><img src="{{ Storage::url($rs->image) }}" alt=""></a>
                     </div>
-                    <h3>{{ $rs->title }}</h3>
-                    <p class="product-price"><span>Per Kg</span>{{ $rs->price }}</p>
-                    <a href="{{ route('product', ['id' => $rs->id]) }}" class="cart-btn"><i class="fas fa-shopping-cart"></i> İncele</a>
+                    <h3>{{ $rs->description }}</h3>
+                    <p class="product-price">{{ $rs->price }}</p>
+                    <a href="{{ route('product', ['id' => $rs->id]) }}" class="cart-btn"><i class="fas fa-shopping-cart"></i>Quick Now</a>
                 </div>
             </div>
+            @endforeach
         </div>
-        @endforeach
+
     </div>
 @endsection

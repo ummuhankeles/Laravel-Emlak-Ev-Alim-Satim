@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="updated category subtree">
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/category_products.blade.php" afterDir="false" />
+    <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/product_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/product_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_hero.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_hero.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/categorytree.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/categorytree.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/category_products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/category_products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +89,7 @@
       <workItem from="1642238400494" duration="8375000" />
       <workItem from="1642247860518" duration="5059000" />
       <workItem from="1642259338883" duration="4110000" />
-      <workItem from="1642331148168" duration="909000" />
+      <workItem from="1642331148168" duration="2999000" />
     </task>
     <task id="LOCAL-00001" summary="created laravel project">
       <created>1638734274711</created>
@@ -236,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642249411286</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="completed category product list">
+      <created>1642332098835</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1642332098835</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +266,7 @@
     <MESSAGE value="updated aboutus, references and contact pages" />
     <MESSAGE value="complated contact message management" />
     <MESSAGE value="updated category subtree" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated category subtree" />
+    <MESSAGE value="completed category product list" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed category product list" />
   </component>
 </project>

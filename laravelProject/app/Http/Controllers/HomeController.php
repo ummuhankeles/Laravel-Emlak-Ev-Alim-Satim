@@ -24,10 +24,13 @@ class HomeController extends Controller
     public function index()
     {
         $setting = Setting::first();
-        $slider = Product::select('id','title', 'image', 'price')->limit(3)->get();
+        $slider = Product::select('id','title', 'image', 'price', 'description')->limit(3)->get();
+        $daily = Product::select('id','title', 'image', 'price', 'description')->inRandomOrder()->get();
+        //$last = Product::select('id','title', 'image', 'price')->limit(3)->orderByDesc('id')->get();
         $data = [
             'setting' => $setting,
             'slider' => $slider,
+            'daily' => $daily,
             'page' => 'home'
         ];
 
@@ -44,7 +47,7 @@ class HomeController extends Controller
     public function categoryproducts($id)
     {
         $data = Category::find($id);
-        $slider = Product::select('id','title', 'image', 'price')->limit(4)->get();
+        $slider = Product::select('id','title', 'image', 'price', 'description')->limit(4)->get();
         $datalist = Product::where('category_id', $id)->get();
         return view('home.category_products', ['data' => $data, 'datalist' => $datalist, 'slider' => $slider]);
     }
