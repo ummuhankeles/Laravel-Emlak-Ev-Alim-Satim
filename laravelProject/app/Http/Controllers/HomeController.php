@@ -21,12 +21,12 @@ class HomeController extends Controller
 
     public static function countreview($id)
     {
-        return Review::where('home_id', $id)->count();
+        return \App\Models\Review::where('home_id', $id)->count();
     }
 
     public static function avrgreview($id)
     {
-        return Review::where('home_id', $id)->avarage('rate');
+        return \App\Models\Review::where('home_id', $id)->average('rate');
     }
 
     public static function getsetting()
@@ -54,8 +54,8 @@ class HomeController extends Controller
     {
         $data = Product::find($id);
         $datalist = Image::where('home_id', $id)->get();
-        $reviews = Review::where('home_id', $id)->get();
-        return view('home.product_detail', ['data' => $data, 'datalist' => $datalist, 'review' => $reviews]);
+        $reviews = \App\Models\Review::where('home_id', $id)->get();
+        return view('home.product_detail', ['data' => $data, 'datalist' => $datalist, 'reviews' => $reviews]);
     }
 
     public function categoryproducts($id)

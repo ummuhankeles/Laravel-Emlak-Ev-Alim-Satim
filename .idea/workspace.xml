@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/FaqController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/app/Models/Faq.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_16_211852_create_faqs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_16_212322_faq.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/faq.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/faq_add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/faq_edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/faq.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Livewire/Review.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Livewire/Review.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/public/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/review.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/review.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/product_detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/product_detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/livewire/review.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/livewire/review.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +94,7 @@
       <workItem from="1642259338883" duration="4110000" />
       <workItem from="1642331148168" duration="10326000" />
       <workItem from="1642355426292" duration="15668000" />
-      <workItem from="1642411606684" duration="2630000" />
+      <workItem from="1642411606684" duration="5873000" />
     </task>
     <task id="LOCAL-00001" summary="created laravel project">
       <created>1638734274711</created>
@@ -277,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642367769643</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="completed frequently asked question">
+      <created>1642414276857</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1642414276857</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +286,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="created laravel project" />
     <MESSAGE value="completed home page template" />
     <MESSAGE value="completed admin panel page template" />
     <MESSAGE value="completed admin login processes" />
@@ -310,6 +310,7 @@
     <MESSAGE value="completed product detail page" />
     <MESSAGE value="completed search products" />
     <MESSAGE value="completed review process" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed review process" />
+    <MESSAGE value="completed frequently asked question" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed frequently asked question" />
   </component>
 </project>

@@ -32,11 +32,6 @@
                                     <tr>
                                         <td>{{ $rs->id }}</td>
                                         <td>{{ $rs->user->name }}</td>
-                                        <td>
-                                            <a href="{{ route('product', ['id' => $rs->product->id]) }}" target="_blank">
-                                                {{ $rs->product->title }}
-                                            </a>
-                                        </td>
                                         <td>{{ $rs->subject }}</td>
                                         <td>{{ $rs->review }}</td>
                                         <td>{{ $rs->rate }}</td>

@@ -68,12 +68,13 @@
                         </div>
                         <div class="comment-text-body">
                             <h4>{{ $rs->user->name }}<span class="comment-date">{{ $rs->created_at }}</span></h4>
-                            <div class="product-rating">
-                                <i class="fa fa-star @if($rs->rate<1) -0 empty @endif"></i>
-                                <i class="fa fa-star @if($rs->rate<2) -0 empty @endif"></i>
-                                <i class="fa fa-star @if($rs->rate<3) -0 empty @endif"></i>
-                                <i class="fa fa-star @if($rs->rate<4) -0 empty @endif"></i>
-                                <i class="fa fa-star @if($rs->rate<5) -0 empty @endif"></i>
+                            <div>
+                                @for ($i = $rs->rate; $i >= 1; $i--)
+                                    <i class="" >☆</i>
+                                @endfor
+                                @for ($i = 5-$rs->rate; $i >= 1; $i--)
+                                        <i class="" >☆</i>
+                                @endfor
                             </div>
                             <p>{{ $rs->subject }}</p>
                             <p>{{ $rs->review }}</p>

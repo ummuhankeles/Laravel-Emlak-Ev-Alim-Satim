@@ -40,7 +40,9 @@ class Review extends Component
             'user_id' => Auth::id(),
             'IP' => $_SERVER['REMOTE_ADDR'],
             'subject' => $this->subject,
-            'review' => $this->review
+            'review' => $this->review,
+            'rate' => $this->rate,
+
         ]);
 
         session()->flash('message', 'Review Save Successfully!');
