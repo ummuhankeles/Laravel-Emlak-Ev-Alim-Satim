@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/ReviewController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Livewire/Review.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/app/Models/Review.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_16_175921_create_reviews_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_16_182516_review.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/review.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/review_edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/user_reviews.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/livewire/review.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/FaqController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/app/Models/Faq.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_16_211852_create_faqs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_16_212322_faq.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/faq.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/faq_add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/faq_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/faq.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/product_detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/product_detail.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +99,8 @@
       <workItem from="1642247860518" duration="5059000" />
       <workItem from="1642259338883" duration="4110000" />
       <workItem from="1642331148168" duration="10326000" />
-      <workItem from="1642355426292" duration="12214000" />
+      <workItem from="1642355426292" duration="15668000" />
+      <workItem from="1642411606684" duration="2630000" />
     </task>
     <task id="LOCAL-00001" summary="created laravel project">
       <created>1638734274711</created>
@@ -274,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642341901975</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="completed review process">
+      <created>1642367769643</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1642367769643</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +309,7 @@
     <MESSAGE value="Showing products on the homepage" />
     <MESSAGE value="completed product detail page" />
     <MESSAGE value="completed search products" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed search products" />
+    <MESSAGE value="completed review process" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed review process" />
   </component>
 </project>
