@@ -35,6 +35,7 @@
 				<span class="login100-form-title p-b-41">
 					Account Login
 				</span>
+            @include('home.message')
             <form action="{{route('admin_logincheck')}}" method="post" class="login100-form validate-form p-b-33 p-t-5">
                 @csrf
                 <div class="wrap-input100 validate-input" data-validate = "Enter username">

@@ -41,9 +41,15 @@
                             <li><a href="{{ route('faq') }}">FAQ</a></li>
                             <li><a href="{{ route('contact') }}">İletişim</a></li>
                             @auth
-                            <li><a href="#">{{ Auth::user()->name }}</a>
+                            <li><a href="#">{{ Auth::user()->name }}<span>{{ Auth::user()->roles->pluck('name') }}</span></a>
                                 <ul class="sub-menu">
                                     <li><a href="{{ route('myaccount') }}">Hesabım</a></li>
+                                    @php
+                                        $userRoles = Auth::user()->roles->pluck('name');
+                                    @endphp
+                                    @if($userRoles->contains('admin'))
+                                        <li><a href="{{ route('admin_home') }}" target="_blank">Admin Panel</a></li>
+                                    @endif
                                     <li><a href="{{ route('user_product') }}">Ürünlerim</a></li>
                                     <li><a href="{{ route('myreviews') }}">Yorumlarım</a></li>
                                     <li><a href="{{ route('logout') }}">Çıkış Yap</a></li>

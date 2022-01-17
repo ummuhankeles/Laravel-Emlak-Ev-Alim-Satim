@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/ImageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/user_product.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/user_product_add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/user_product_edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/user_product_image_add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Middleware/CheckAdmin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/app/Models/Role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_17_164550_create_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_17_164938_roles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_17_165210_create_role_user_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_17_165816_role_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/product_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/product_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/database/migrations/2021_12_27_103351_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2021_12_27_103351_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/navigation-menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/navigation-menu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +101,8 @@
       <workItem from="1642259338883" duration="4110000" />
       <workItem from="1642331148168" duration="10326000" />
       <workItem from="1642355426292" duration="15668000" />
-      <workItem from="1642411606684" duration="14076000" />
+      <workItem from="1642411606684" duration="14119000" />
+      <workItem from="1642437679681" duration="6488000" />
     </task>
     <task id="LOCAL-00001" summary="created laravel project">
       <created>1638734274711</created>
@@ -290,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642417550125</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="completed user product management">
+      <created>1642427072368</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1642427072368</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +308,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="completed admin panel page template" />
     <MESSAGE value="completed admin login processes" />
     <MESSAGE value="completed category database processes" />
     <MESSAGE value="completed adding and deleting category" />
@@ -323,6 +332,7 @@
     <MESSAGE value="completed review process" />
     <MESSAGE value="completed frequently asked question" />
     <MESSAGE value="update reviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="update reviews" />
+    <MESSAGE value="completed user product management" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed user product management" />
   </component>
 </project>
