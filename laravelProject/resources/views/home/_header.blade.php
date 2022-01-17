@@ -43,7 +43,8 @@
                             @auth
                             <li><a href="#">{{ Auth::user()->name }}</a>
                                 <ul class="sub-menu">
-                                    <li><a href="{{ route('myprofile') }}">Hesabım</a></li>
+                                    <li><a href="{{ route('myaccount') }}">Hesabım</a></li>
+                                    <li><a href="{{ route('user_product') }}">Ürünlerim</a></li>
                                     <li><a href="{{ route('myreviews') }}">Yorumlarım</a></li>
                                     <li><a href="{{ route('logout') }}">Çıkış Yap</a></li>
                                 </ul>

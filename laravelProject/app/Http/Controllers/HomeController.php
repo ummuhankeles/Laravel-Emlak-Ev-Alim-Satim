@@ -69,7 +69,7 @@ class HomeController extends Controller
     public function getproduct(Request $request)
     {
         $search = $request->input('search');
-        $count = Product::where('title', 'like', '%'.$this->search.'%')->get()->count();
+        $count = Product::where('title', 'like', '%'.$search.'%')->get()->count();
 
         if($count == 1) {
             $data = Product::where('title', $request->input('search'))->first();
