@@ -27,43 +27,40 @@
                 @include('home.message')
             </div>
             <div class="card-body">
-                <form class="forms-sample" action="{{ route('admin_review_update', ['id' => $data->id]) }}" method="post" enctype="multipart/form-data">
+                <form class="forms-sample" action="{{ route('admin_review_update', ['id' => $datalist->id]) }}" method="post">
                     @csrf
                     <div class="form-group row">
                         <table class="table table-dark">
                             <tr>
                             </tr>
-                                <th> Id </th><td>{{ $data->id }}</td>
+                                <th> Id </th><td>{{ $datalist->id }}</td>
                             <tr>
                             </tr>
-                                <th> Name </th><td>{{ $data->user->name }}</td>
+                                <th> Name </th><td>{{ $datalist->user->name }}</td>
                             <tr>
                             </tr>
-                                <th> Product </th><td>{{ $data->product->title }}</td>
+                                <th> Subject </th><td>{{ $datalist->subject }}</td>
                             <tr>
                             </tr>
-                                <th> Subject </th><td>{{ $data->subject }}</td>
+                                <th> Review </th><td>{{ $datalist->review }}</td>
                             <tr>
                             </tr>
-                                <th> Review </th><td>{{ $data->review }}</td>
+                                <th> Rate </th><td>{{ $datalist->rate }}</td>
                             <tr>
                             </tr>
-                                <th> Rate </th><td>{{ $data->rate }}</td>
+                                <th> IP </th><td>{{ $datalist->IP }}</td>
                             <tr>
                             </tr>
-                                <th> IP </th><td>{{ $data->IP }}</td>
+                                <th> Created Date </th><td>{{ $datalist->created_date }}</td>
                             <tr>
                             </tr>
-                                <th> Created Date </th><td>{{ $data->created_date }}</td>
-                            <tr>
-                            </tr>
-                                <th> Updated Date </th><td>{{ $data->updated_date }}</td>
+                                <th> Updated Date </th><td>{{ $datalist->updated_date }}</td>
                             <tr>
                             </tr>
                             <th> Status </th>
                             <td>
                                 <select name="status">
-                                    <option selected>{{ $data->status }}</option>
+                                    <option selected>{{ $datalist->status }}</option>
                                     <option>True</option>
                                     <option>False</option>
                                 </select>

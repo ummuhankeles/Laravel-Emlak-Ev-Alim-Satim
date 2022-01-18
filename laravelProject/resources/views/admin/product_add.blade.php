@@ -84,9 +84,9 @@
                         </div>
                     </div>
                     <div class="form-group row" >
-                        <label for="exampleInputEmail2" name="status" class="col-sm-3 col-form-label">Status</label>
+                        <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Status</label>
                         <div class="col-sm-9">
-                            <select class="js-example-basic-single" style="width:100%">
+                            <select name="status" class="js-example-basic-single" style="width:100%">
                                 <option selected="selected">False</option>
                                 <option>True</option>
                             </select>

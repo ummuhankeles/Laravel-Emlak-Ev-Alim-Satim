@@ -48,8 +48,8 @@ class ReviewController extends Controller
      */
     public function show(Review $review, $id)
     {
-        $data = Review::find($id);
-        return view('admin.review_edit', ['data' => $data]);
+        $datalist = Review::find($id);
+        return view('admin.review_edit', ['datalist' => $datalist]);
     }
 
     /**

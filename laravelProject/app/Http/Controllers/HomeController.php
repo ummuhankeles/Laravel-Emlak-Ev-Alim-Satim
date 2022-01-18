@@ -37,13 +37,13 @@ class HomeController extends Controller
     public function index()
     {
         $setting = Setting::first();
-        $slider = Product::select('id','title', 'image', 'price', 'description')->limit(3)->get();
-        $daily = Product::select('id','title', 'image', 'price', 'description')->inRandomOrder()->get();
+        $slider = Product::select('id','title', 'image', 'price', 'description')->inRandomOrder()->limit(3)->get();
+        $daily = Product::select('id','title', 'image', 'price', 'description')->inRandomOrder()->limit(6)->get();
         //$last = Product::select('id','title', 'image', 'price')->limit(3)->orderByDesc('id')->get();
         $data = [
             'setting' => $setting,
-            'slider' => $slider,
             'daily' => $daily,
+            'slider' => $slider,
             'page' => 'home'
         ];
 
@@ -69,20 +69,34 @@ class HomeController extends Controller
     public function getproduct(Request $request)
     {
         $search = $request->input('search');
-        $count = Product::where('title', 'like', '%'.$search.'%')->get()->count();
+        if ($search !== null){
+            $count = Product::where('status', '=', 'true')->where('title', 'like', '%' . $search . '%')->get()->count();
+
+            if ($count == 1) {
+                $data = Product::where('status', '=', 'true')->where('title', 'like', '%' . $search . '%')->first();
+                return redirect()->route('product', ['id' => $data->id]);
+            } else {
+                return redirect()->route('productlist', ['search' => $search]);
+            }
+        }
+        else {
+            return redirect()->route('home');
+        }
+
+        /*$count = Product::where('title', 'like', '%'.$search.'%')->get()->count();
 
         if($count == 1) {
             $data = Product::where('title', $request->input('search'))->first();
             return redirect()->route('product', ['id' => $data->id]);
         } else {
             return redirect()->route('productlist', ['search' => $search]);
-        }
+        }*/
 
     }
 
     public function productlist($search)
     {
-        $datalist = Product::where('title', 'like', '%'.$this->search.'%')->get();
+        $datalist = Product::where('title', 'like', '%'.$search.'%')->get();
         return view('home.search_products', ['search' => $search, 'datalist' => $datalist]);
     }
 

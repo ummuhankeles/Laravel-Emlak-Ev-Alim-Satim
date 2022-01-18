@@ -58,7 +58,7 @@
                         <tr>
                             <th>Add Role</th>
                             <td>
-                                <form role="form" action="{{ route('admin_user_role_add', ['id'=>$data->id]) }}" enctype="multipart/form-data">
+                                <form role="form" action="{{ route('admin_user_role_add', ['id'=>$data->id]) }}">
                                     @csrf
                                     <select name="roleid">
                                         @foreach($datalist as $rs)

@@ -16,7 +16,8 @@
                                 <table class="table table-dark">
                                     <thead>
                                     <tr>
-                                        <th> # </th>
+                                        <th> Id </th>
+                                        <td> User Id </td>
                                         <th> Image </th>
                                         <th> Image Gallery </th>
                                         <th> Category </th>
@@ -37,6 +38,7 @@
                                     @foreach($datalist as $rs)
                                     <tr>
                                         <td>{{ $rs->id }}</td>
+                                        <td>{{ $rs->user_id }}</td>
                                         <td>
                                             @if ($rs->image)
                                                 <img src="{{Storage::url($rs->image)}}" height="70" width="70" >

@@ -5,18 +5,6 @@
 
 @section('content')
     <div class="container">
-        <div class="row" style="margin-top: 150px">
-            <div class="col-md-12">
-                <div class="product-filters">
-                    <ul>
-                        <li class="active" data-filter="*">All</li>
-                        <li data-filter=".strawberry">Strawberry</li>
-                        <li data-filter=".berry">Berry</li>
-                        <li data-filter=".lemon">Lemon</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div class="row product-lists">
             @foreach($slider as $rs)
             <div class="col-lg-4 col-md-6 text-center">

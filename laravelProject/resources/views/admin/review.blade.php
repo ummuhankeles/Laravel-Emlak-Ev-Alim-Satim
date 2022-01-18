@@ -18,13 +18,13 @@
                                     <tr>
                                         <th> Id </th>
                                         <th> Name </th>
-                                        <th> Product </th>
                                         <th> Subject </th>
                                         <th> Review </th>
                                         <th> Rate </th>
                                         <th> Status </th>
                                         <th> Date </th>
-                                        <th> Action </th>
+                                        <th> Edit </th>
+                                        <th> Delete </th>
                                     </tr>
                                     </thead>
                                     <tbody>

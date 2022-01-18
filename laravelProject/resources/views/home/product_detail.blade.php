@@ -20,7 +20,7 @@
                 @foreach($datalist as $rs)
                 <div class="col-md-5">
                     <div class="single-product-img">
-                        <img src="{{ Storage::url($rs->image)}}" alt="">
+                        <img src="{{ \Illuminate\Support\Facades\Storage::url($rs->image)}}" alt="">
                     </div>
                 </div>
                 <div class="col-md-7">
@@ -45,7 +45,6 @@
                 @endforeach
             </div>
 
-            // comment list
             <div class="comments-list-wrap">
                 <h3 class="comment-count-title">
                     @php
@@ -84,7 +83,6 @@
                 </div>
             </div>
 
-            // add comment
             @livewireScripts
             <div class="comment-template mt-5">
                 <h4>Leave a comment</h4>

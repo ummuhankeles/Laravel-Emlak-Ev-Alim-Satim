@@ -37,8 +37,6 @@
                                 </ul>-->
                             </li>
                             <li><a href="{{ route('aboutus') }}">Hakkımızda</a></li>
-                            <li><a href="{{ route('reference') }}">Referanslar</a></li>
-                            <li><a href="{{ route('faq') }}">FAQ</a></li>
                             <li><a href="{{ route('contact') }}">İletişim</a></li>
                             @auth
                             <li><a href="#">{{ Auth::user()->name }}</a>

@@ -5,19 +5,32 @@
 <div class="footer-area">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6">
+            <div class="col-md-4">
                 <div class="footer-box about-widget">
                     <h2 class="widget-title">Hakkımızda</h2>
-                    <p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                    <p>
+                        Modern hayatı şekillendiren yeni keşiflerin öncülüğünü üstlenerek daha iyi bir yaşamın standartlarını oluşturmak için çalışan Doğuş Grubu, 1951 yılında kurulmuştur. Müşterilerinin yanı sıra çalışanları, iş ortakları ve hatta rakipleri için bir tutkuya dönüşecek, sınıfının en iyisi yaşam tarzı markalarını bünyesinde barındıran Doğuş, çalıştığı alanlarda küresel bir oyuncu olma hedefiyle çalışmalarına devam etmektedir.
+                    </p>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6">
+            <div class="col-md-4">
                 <div class="footer-box get-in-touch">
-                    <h2 class="widget-title">İletişim</h2>
+                    <h2 class="widget-title">Linkler</h2>
                     <ul>
-                        <li>34/8, East Hukupara, Gifirtok, Sadan.</li>
-                        <li>support@fruitkha.com</li>
-                        <li>+00 111 222 3333</li>
+                        <li><a href="{{ route('aboutus') }}">Hakkımızda</a></li>
+                        <li><a href="{{ route('contact') }}">İletişim</a></li>
+                        <li><a href="{{ route('reference') }}">Referanslar</a></li>
+                        <li><a href="{{ route('faq') }}">Sık Sorulan Sorular</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="social-icons">
+                    <h2 class="widget-title">Sosyal Medya</h2>
+                    <ul>
+                        @if($setting->facebook != null) <li><a href="{{ $setting->facebook }}" target="_blank"><i class="fab fa-facebook-f"></i></a></li> @endif
+                        @if($setting->twitter != null) <li><a href="{{ $setting->twitter }}" target="_blank"><i class="fab fa-twitter"></i></a></li> @endif
+                        @if($setting->instagram != null) <li><a href="{{ $setting->instagram }}" target="_blank"><i class="fab fa-instagram"></i></a></li> @endif
                     </ul>
                 </div>
             </div>

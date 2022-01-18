@@ -92,8 +92,8 @@
                     <div class="form-group row" >
                         <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Status</label>
                         <div class="col-sm-9">
-                            <select class="js-example-basic-single" style="width:100%">
-                                <option name="status" selected="selected">{{$data->status}}</option>
+                            <select name="status" class="js-example-basic-single" style="width:100%">
+                                <option selected="selected">{{$data->status}}</option>
                                 <option>False</option>
                                 <option>True</option>
                             </select>
