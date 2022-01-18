@@ -8,7 +8,9 @@
             <div class="profile-desc">
                 <div class="profile-pic">
                     <div class="count-indicator">
-                        <img class="img-xs rounded-circle " src="{{asset('assets')}}/admin/images/faces/face15.jpg" alt="">
+                        @if (Auth::user()->profile_photo_path)
+                            <img class="img-xs rounded-circle " src="{{Storage::url(Auth::user()->profile_photo_path)}}" style="border-radius: 10px" height="70" width="70" >
+                        @endif
                         <span class="count bg-success"></span>
                     </div>
                     <div class="profile-name">
@@ -100,6 +102,14 @@
                 <i class="mdi mdi-laptop"></i>
               </span>
                 <span class="menu-title">FAQ</span>
+            </a>
+        </li>
+        <li class="nav-item menu-items">
+            <a class="nav-link" href="{{ route('admin_user') }}" >
+              <span class="menu-icon">
+                <i class="mdi mdi-laptop"></i>
+              </span>
+                <span class="menu-title">Users</span>
             </a>
         </li>
         <li class="nav-item menu-items">

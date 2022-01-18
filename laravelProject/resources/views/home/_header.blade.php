@@ -41,7 +41,7 @@
                             <li><a href="{{ route('faq') }}">FAQ</a></li>
                             <li><a href="{{ route('contact') }}">İletişim</a></li>
                             @auth
-                            <li><a href="#">{{ Auth::user()->name }}<span>{{ Auth::user()->roles->pluck('name') }}</span></a>
+                            <li><a href="#">{{ Auth::user()->name }}</a>
                                 <ul class="sub-menu">
                                     <li><a href="{{ route('myaccount') }}">Hesabım</a></li>
                                     @php

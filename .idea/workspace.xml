@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Middleware/CheckAdmin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/app/Models/Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_17_164550_create_roles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_17_164938_roles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_17_165210_create_role_user_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2022_01_17_165816_role_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/user.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/user_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/user_roles.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/database/migrations/2021_12_27_103351_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/database/migrations/2021_12_27_103351_create_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/routes/web.php" afterDir="false" />
     </list>
@@ -52,14 +46,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/laravelProject/resources/views/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/laravelProject/resources/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Asus\Desktop\Laravel-Emlak-Ev-Alim-Satim\laravelProject\resources\views\home" />
       <recent name="C:\Users\Asus\Desktop\Laravel-Emlak-Ev-Alim-Satim\laravelProject\resources\views\admin" />
+      <recent name="C:\Users\Asus\Desktop\Laravel-Emlak-Ev-Alim-Satim\laravelProject\resources\views\home" />
       <recent name="C:\Users\Asus\Desktop\Laravel-Emlak-Ev-Alim-Satim\laravelProject\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -102,7 +96,10 @@
       <workItem from="1642331148168" duration="10326000" />
       <workItem from="1642355426292" duration="15668000" />
       <workItem from="1642411606684" duration="14119000" />
-      <workItem from="1642437679681" duration="6488000" />
+      <workItem from="1642437679681" duration="11159000" />
+      <workItem from="1642448954408" duration="577000" />
+      <workItem from="1642449837810" duration="1906000" />
+      <workItem from="1642509561669" duration="198000" />
     </task>
     <task id="LOCAL-00001" summary="created laravel project">
       <created>1638734274711</created>
@@ -300,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642427072368</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="completed user admin role permission">
+      <created>1642444246949</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1642444246949</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +312,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="completed admin login processes" />
     <MESSAGE value="completed category database processes" />
     <MESSAGE value="completed adding and deleting category" />
     <MESSAGE value="completed updating category" />
@@ -333,6 +336,7 @@
     <MESSAGE value="completed frequently asked question" />
     <MESSAGE value="update reviews" />
     <MESSAGE value="completed user product management" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed user product management" />
+    <MESSAGE value="completed user admin role permission" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed user admin role permission" />
   </component>
 </project>
