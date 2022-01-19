@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 
@@ -42,6 +43,7 @@ class ProductController extends Controller
     public function store(Request $request)
     {
         $data = new Product();
+        $data -> user_id = Auth::id();
         $data -> title = $request->input('title');
         $data -> keywords = $request->input('keywords');
         $data -> description = $request->input('description');
@@ -90,6 +92,7 @@ class ProductController extends Controller
     public function update(Request $request, Product $product, $id)
     {
         $data = Product::find($id);
+        $data -> user_id = Auth::id();
         $data -> title = $request->input('title');
         $data -> keywords = $request->input('keywords');
         $data -> description = $request->input('description');

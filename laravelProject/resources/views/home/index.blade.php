@@ -1,6 +1,5 @@
 @php
      $setting = \App\Http\Controllers\HomeController::getsetting();
-    $slider = \App\Http\Controllers\HomeController::categoryList()
 @endphp
 
 @extends('layouts.home')
@@ -20,9 +19,13 @@
                 @foreach($daily as $rs)
                 <div class="col-lg-4 col-md-6">
                     <div class="single-latest-news">
-                        <a href="{{ route('product', ['id' => $rs->id]) }}"><div class="latest-news-bg"><img src="{{Storage::url($rs->img)}}"/></div></a>
+                        <a href="{{ route('product', ['id' => $rs->id]) }}">
+                            <div class="latest-news-bg">
+                                <img src="{{Storage::url($rs->img)}}"/>
+                            </div>
+                        </a>
                         <div class="news-text-box">
-                            <h3><a href="{{ route('product', ['id' => $rs->id]) }}">{{$rs->description}}</a></h3>
+                            <h3>{{$rs->description}}</h3>
                             <a href="{{ route('product', ['id' => $rs->id]) }}" class="read-more-btn">daha fazla <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>

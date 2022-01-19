@@ -10,9 +10,7 @@
                 <div class="main-menu-wrap">
                     <!-- logo -->
                     <div class="site-logo">
-                        <a href="{{ route('home') }}">
-                            <img src="{{asset('assets')}}/img/logo.png" alt="">
-                        </a>
+                            <li><a href="{{ route('home') }}" style="color: #F28123">EMLAK & KONUT <br/> SİTESİ</a></li>
                     </div>
                     <!-- logo -->
 

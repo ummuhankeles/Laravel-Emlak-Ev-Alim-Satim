@@ -20,7 +20,7 @@
                     </div>
                     <h3>{{ $rs->description }}</h3>
                     <p class="product-price">{{ $rs->price }}</p>
-                    <a href="{{ route('product', ['id' => $rs->id]) }}" class="cart-btn"><i class="fas fa-shopping-cart"></i>Quick Now</a>
+                    <a href="{{ route('product', ['id' => $rs->id]) }}" class="cart-btn">Quick Now</a>
                 </div>
             </div>
             @endforeach

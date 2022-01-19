@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="">
+    <list default="true" id="2d04721c-7669-4992-9eb7-4703b27b9160" name="Changes" comment="updated changes">
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/arsa.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/arsa1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/arsa2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/arsa3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/arsa4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/arsa5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/bina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/bina1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/bina2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/bina3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/isyeri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/isyeri1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/isyeri2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/isyeri3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/isyeri4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/isyeri5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/mustakil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/mustakil1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/mustakil2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/mustakil3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/mustakil4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravelProject/public/assets/img/projectImages/mustakil5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/ReviewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/ReviewController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/product.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/product_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/product_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/product_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/product_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/review.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/review.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/review_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/review_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/admin/user_roles.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/admin/user_roles.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/sections/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/public/assets/css/scss/sections/_hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/_hero.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/_hero.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/category_products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/category_products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/categorytree.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/categorytree.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/product_detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/product_detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/resources/views/home/search_products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/resources/views/home/search_products.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravelProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravelProject/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +126,8 @@
       <workItem from="1642509561669" duration="6285000" />
       <workItem from="1642524455921" duration="4820000" />
       <workItem from="1642529413440" duration="936000" />
-      <workItem from="1642539057395" duration="3727000" />
+      <workItem from="1642539057395" duration="4108000" />
+      <workItem from="1642581015569" duration="9843000" />
     </task>
     <task id="LOCAL-00001" summary="created laravel project">
       <created>1638734274711</created>
@@ -323,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642509787445</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="updated changes">
+      <created>1642542888891</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1642542888891</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +354,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="completed adding and deleting category" />
     <MESSAGE value="completed updating category" />
     <MESSAGE value="completed adding, deleting, updating product" />
     <MESSAGE value="updating product pages" />
@@ -356,6 +378,7 @@
     <MESSAGE value="completed user product management" />
     <MESSAGE value="completed user admin role permission" />
     <MESSAGE value="completed admin panel user role management" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed admin panel user role management" />
+    <MESSAGE value="updated changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated changes" />
   </component>
 </project>

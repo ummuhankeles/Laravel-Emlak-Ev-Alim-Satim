@@ -37,13 +37,13 @@ class HomeController extends Controller
     public function index()
     {
         $setting = Setting::first();
-        $slider = Product::select('id','title', 'image', 'price', 'description')->inRandomOrder()->limit(3)->get();
+        $sliders = Product::select('id','title', 'image', 'price', 'description')->limit(6)->get();
         $daily = Product::select('id','title', 'image', 'price', 'description')->inRandomOrder()->limit(6)->get();
-        //$last = Product::select('id','title', 'image', 'price')->limit(3)->orderByDesc('id')->get();
+        //$last = Product::select('id','title', 'image', 'price')->limit(6)->orderByDesc('id')->get();
         $data = [
             'setting' => $setting,
             'daily' => $daily,
-            'slider' => $slider,
+            'sliders' => $sliders,
             'page' => 'home'
         ];
 
@@ -61,9 +61,9 @@ class HomeController extends Controller
     public function categoryproducts($id)
     {
         $data = Category::find($id);
-        $slider = Product::select('id','title', 'image', 'price', 'description')->limit(4)->get();
+        //$slider = Product::select('id','title', 'image', 'price', 'description')->limit(4)->get();
         $datalist = Product::where('category_id', $id)->get();
-        return view('home.category_products', ['data' => $data, 'datalist' => $datalist, 'slider' => $slider]);
+        return view('home.category_products', ['data' => $data, 'datalist' => $datalist]);
     }
 
     public function getproduct(Request $request)

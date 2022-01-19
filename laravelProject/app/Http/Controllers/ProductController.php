@@ -41,6 +41,7 @@ class ProductController extends Controller
     public function store(Request $request)
     {
         $data = new Product();
+        $data -> user_id = Auth::id();
         $data -> title = $request->input('title');
         $data -> keywords = $request->input('keywords');
         $data -> description = $request->input('description');
@@ -89,6 +90,7 @@ class ProductController extends Controller
     public function update(Request $request, Product $product, $id)
     {
         $data = Product::find($id);
+        $data -> user_id = Auth::id();
         $data -> title = $request->input('title');
         $data -> keywords = $request->input('keywords');
         $data -> description = $request->input('description');
