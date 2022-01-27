@@ -13,7 +13,7 @@
 @section('keywords', $setting->keywords)
 
 @section('content')
-    <div class="latest-news pt-150 pb-150">
+    <div class="latest-news pt-100 pb-100">
         <div class="container">
             <div class="row">
                 @foreach($daily as $rs)
@@ -21,7 +21,7 @@
                     <div class="single-latest-news">
                         <a href="{{ route('product', ['id' => $rs->id]) }}">
                             <div class="latest-news-bg">
-                                <img src="{{Storage::url($rs->img)}}"/>
+                                <img src="{{Storage::url($rs->image)}}" style="height: 200px; width: 100%">
                             </div>
                         </a>
                         <div class="news-text-box">

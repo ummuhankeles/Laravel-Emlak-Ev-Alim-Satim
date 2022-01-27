@@ -11,6 +11,7 @@ use App\Models\Product;
 use App\Models\Setting;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -37,8 +38,9 @@ class HomeController extends Controller
     public function index()
     {
         $setting = Setting::first();
-        $sliders = Product::select('id','title', 'image', 'price', 'description')->limit(6)->get();
-        $daily = Product::select('id','title', 'image', 'price', 'description')->inRandomOrder()->limit(6)->get();
+        $sliders = DB::select("SELECT id, title, image, price, description FROM products WHERE status='True' LIMIT 6");
+        $daily = DB::select("SELECT id, title, image, price, description FROM products WHERE status='True' LIMIT 6");
+        //$daily = Product::select('id','title', 'image', 'price', 'description')->inRandomOrder()->limit(6)->get();
         //$last = Product::select('id','title', 'image', 'price')->limit(6)->orderByDesc('id')->get();
         $data = [
             'setting' => $setting,
